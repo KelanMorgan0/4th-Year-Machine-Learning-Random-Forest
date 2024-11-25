@@ -27,11 +27,13 @@ The data is taken in using pandas and stored in a variable
 
 5. The confusion matrix of the testing data is then shown with the Accuracy, Percision, Recall and F1-Score.
    ![confusion matrix from training data](Images/trainingConfusionMatrix.png)
+
    The data looks over fit here but gives good results later on the test data.
 
-6. The tree structure is then shown. below is a tree restricted to 4 nodes deep.
+7. The tree structure is then shown. below is a tree restricted to 4 nodes deep.
    ![tree structure of random forest](Images/Tree.png)
 
-7. The remaining 20% of the data for the test is then used, the accuracy can be seen in the graph below:
+8. The remaining 20% of the data for the test is then used, the accuracy can be seen in the graph below:
    ![confusion matrix from test data](Images/testConfusionMatrix.png)
+
    As you can see with the values in the above matrix, the accuracy is ~93% which is not bad for a machine learning prediction
